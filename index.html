@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex.Dev | Developer Portfolio & Glow-Fi Architecture</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="mesh-bg" id="meshBg"></div>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Alex.Dev</div>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container hero-grid">
+            <div class="avatar-container reveal">
+                <div class="avatar-glow">
+                    <img class="avatar-img" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="AlexDev Portrait">
+                </div>
+            </div>
+
+            <div class="reveal">
+                <h1 class="hero-headline">Hi, I'm <span class="gradient-text">AlexDev</span></h1>
+                <h2 class="hero-subheading">20-Year-Old Creative Software Engineering Student</h2>
+                <p class="hero-subtitle">I am a tech enthusiast focused on software engineering and web application architectures. I specialize in designing structured backend logical pathways and mapping out responsive, high-performance frontends.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View My Work <i data-lucide="arrow-right" style="width:16px;height:16px"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="bento-grid">
+                <div class="bento-card card-lg reveal">
+                    <h3><i data-lucide="user" style="width:18px;height:18px;color:var(--accent-violet)"></i> My Journey</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1rem;">I am a tech enthusiast focused on software engineering and web application architectures. Driven by code cleanliness and performance scaling, I map out high-performing systems from visual logic interfaces down to foundational databases.</p>
+                    <p style="color: var(--text-secondary);">Currently pursuing my university technical studies, I look for ways to bridge clean architectural design patterns directly into modern, production-ready ecosystems.</p>
+                </div>
+
+                <div class="bento-card card-md reveal">
+                    <h3><i data-lucide="code-2" style="width:18px;height:18px;color:var(--accent-cyan)"></i> Core Stack</h3>
+                    <div class="skills-container">
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">C Language</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Express</span>
+                        <span class="skill-badge">MongoDB</span>
+                        <span class="skill-badge">TypeScript</span>
+                        <span class="skill-badge">React/Next.js</span>
+                        <span class="skill-badge">TailwindCSS</span>
+                    </div>
+                </div>
+
+                <div class="bento-card card-full reveal">
+                    <h3><i data-lucide="graduation-cap" style="width:18px;height:18px;color:var(--accent-emerald)"></i> Education</h3>
+                    <div class="edu-wrapper">
+                        <div class="edu-meta">
+                            <h4>Bachelor of Science in Computer Science / Engineering</h4>
+                            <p>University Academic Ecosystem</p>
+                        </div>
+                        <span class="edu-badge">In Progress</span>
+                    </div>
+                    <p class="edu-details">Actively focusing on core theoretical computing segments including Object-Oriented Programming (OOP) architectures, Operating System structures (Memory Management &amp; Paging Simulations), Digital Logic Design, and structured Database Entity-Relationship Modeling.</p>
+                </div>
+
+                <div class="bento-card card-sm reveal">
+                    <div class="stat-number">20</div>
+                    <div class="stat-desc">Years Old Engineering Scholar</div>
+                </div>
+                
+                <div class="bento-card card-sm reveal">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-desc">Academic &amp; Production Builds Deployed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-img-wrapper">
+                        <i data-lucide="layers" style="width:48px;height:48px"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Next.js</span>
+                            <span class="project-tag">GraphQL</span>
+                        </div>
+                        <h3 class="project-title">SaaS Analytics Platform</h3>
+                        <p class="project-desc">A highly scalable web analytics tracker showing real-time conversion rates without tracking users cookies natively.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i data-lucide="external-link" style="width:14px;height:14px"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i data-lucide="github" style="width:14px;height:14px"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img-wrapper">
+                        <i data-lucide="shopping-bag" style="width:48px;height:48px"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">Stripe</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Core API</h3>
+                        <p class="project-desc">Headless commerce architecture optimizing server side page generation updates using webhook listeners.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i data-lucide="external-link" style="width:14px;height:14px"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i data-lucide="github" style="width:14px;height:14px"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-img-wrapper">
+                        <i data-lucide="cpu" style="width:48px;height:48px"></i>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">TypeScript</span>
+                            <span class="project-tag">WebSockets</span>
+                        </div>
+                        <h3 class="project-title">Collaborative Workspace</h3>
+                        <p class="project-desc">Real-time multiplayer interactive document editing interface using Conflict-free Replicated Data Types (CRDTs).</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i data-lucide="external-link" style="width:14px;height:14px"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i data-lucide="github" style="width:14px;height:14px"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="time-meta">2024 - Present</div>
+                    <div class="role-title">Senior Frontend Developer</div>
+                    <div class="company-name">Apex Digital Systems</div>
+                    <ul class="timeline-desc">
+                        <li>Led development of a high-throughput monitoring dashboard, reducing load times by 40%.</li>
+                        <li>Mentored junior engineers on adopting modular TypeScript layout compositions.</li>
+                    </ul>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="time-meta">2022 - 2024</div>
+                    <div class="role-title">Full-Stack Software Engineer</div>
+                    <div class="company-name">Nova Core Technologies</div>
+                    <ul class="timeline-desc">
+                        <li>Designed and deployed serverless APIs handling millions of database record updates daily.</li>
+                        <li>Configured automated test pipelines to ensure zero breakdown continuous integration coverage.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-layout">
+            <div class="contact-info-panel reveal">
+                <h2 class="section-title" style="margin-bottom: 1rem;">Let's Connect</h2>
+                <p>Have an open position, an exciting project idea, or just want to chat architectural patterns? Drop a line here.</p>
+                <div class="social-row">
+                    <a href="#" class="social-icon" aria-label="GitHub"><i data-lucide="github"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+            <form class="reveal" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-wrap">
+            <div>&copy; 2026 Alex Morgan. Built clean.</div>
+            <button class="back-to-top" id="backToTopBtn">
+                Back to top <i data-lucide="arrow-up" style="width:14px;height:14px"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@0.475.0/dist/umd/lucide.min.js"></script>
+    <script src="https://unpkg.com/@lucide/lab@0.1.2/dist/umd/lucide-lab.min.js"></script>
+
+    <script src="script.js"></script>
+    
+    <script>
+        if (typeof lucide !== 'undefined') {
+            const combinedIcons = {
+                ...lucide.icons,
+                ...(typeof lucideLab !== 'undefined' ? lucideLab : {})
+            };
+            lucide.createIcons({ icons: combinedIcons });
+        }
+    </script>
+</body>
+</html>
